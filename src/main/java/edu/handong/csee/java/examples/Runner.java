@@ -94,7 +94,7 @@ public class Runner {
 		// automatically generate the help statement
 		HelpFormatter formatter = new HelpFormatter();
 		String header = "CLI test program";
-		String footer ="\nPlease report issues at https://github.com/lifove/CLIExample/issues";
+		String footer ="\nPlease report issues at https://github.com/HGUISEL/CLIExample/issues";
 		formatter.printHelp("CLIExample", header, options, footer, true);
 	}
 
