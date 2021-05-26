@@ -9,9 +9,9 @@ import org.apache.commons.cli.Options;
 
 public class Runner {
 	
-	String path;
-	boolean verbose;
-	boolean help;
+	private String path;
+	private boolean verbose;
+	private boolean help;
 
 	public static void main(String[] args) {
 
